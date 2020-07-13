@@ -1,0 +1,443 @@
+.home-background{
+    background-image: url('./Images/wapbackground14.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    margin:0;
+    
+    
+}
+
+@media only screen and (max-width:700px){
+    .home-background{
+        background-image: url('./Images/wapbackground16.jpg');
+        height:650px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100vw;
+        border-radius: 50px;
+        
+
+    } 
+
+   
+    
+}
+
+.background-text1{
+    color:white;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:700px){
+
+.background-text1{
+    color:white;
+    margin-top: 150px;
+    font-size: 30px;
+}
+}
+
+.background-text2{
+    color:white;
+    margin-top:20px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:768px){
+
+.background-text2{
+    color:white;
+    margin-top:20px;
+    font-size: 26px;
+}
+}
+
+
+
+
+
+
+.button-container{
+    margin-top: 100px;
+}
+
+.l-button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    color:white;
+    width: 100px;
+    
+}
+
+
+.r-button{
+    margin-left: 20px;
+    background-color:rgb(184, 23, 103);
+    border: 3px solid rgb(184, 23, 103);
+    color:white;
+    width: 100px;
+    
+}
+
+
+
+.card-background{
+    padding:10px;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+@media only screen and (max-width:800px){
+
+.svgs{
+    display:none;
+    
+}
+}
+
+
+.pink-card{
+    background-color: rgb(184, 23, 103);
+    border-radius: 19px;
+}
+
+.student-pic{
+    width:100%;
+    padding: 0;
+}
+.student-card{
+    height:500px;
+    
+}
+
+.help-card{
+height: 500px;
+}
+
+.about-wap{
+    background-color: rgb(153, 33, 93);
+    color:white;
+    height: 100px;
+}
+
+.student-card-header{
+    padding: 0;
+    height: 700px;
+}
+
+
+.mycard{
+    
+    
+    background: rgba(255, 255, 255, 0.972);
+   
+    position: absolute;
+    border-radius: 5px;
+    margin-top:50px;
+    height:400px;
+    
+    
+
+    
+    
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+.text-one{
+    font-size:30px;
+    color:rgb(184, 23, 103);
+    margin-top: 50px;
+
+}
+}
+
+
+
+.register{
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    width:200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.row-1{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size:30px;
+   
+    
+}
+
+.big-text{
+    
+    font-size: 50px;
+    color:rgb(184, 23, 103);
+}
+
+@media only screen and (max-width:800px){
+
+.big-text{
+    
+    font-size: 24px;
+    color:rgb(184, 23, 103);
+}
+}
+
+
+
+
+
+
+
+.list-title{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    color:rgb(184, 23, 103);
+}
+
+
+@media only screen and (max-width:800px){
+
+    .list-title{
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 30px;
+        color:rgb(184, 23, 103);
+    }
+ 
+    }
+
+
+
+
+.list-one ::before{
+ font-size: 20px;
+ margin-left: 20px;
+content: ">";color:rgb(184, 23, 103);
+}
+
+
+
+.list-two{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+   
+   }
+
+
+.list-three{
+    font-size: 20px;
+    margin-left: -50px;
+   
+   }
+
+
+.list-one{
+    font-size: 20px;
+   
+   }
+
+.ulist{
+    
+    list-style-type: none;
+    
+    
+}
+
+
+.svg-1{
+width:100%;
+}
+
+.row-2{
+    
+}
+
+.row-3{
+    background-color: whitesmoke;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+    
+}
+
+.student-pic{
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pink-footer{
+background-color: rgb(184, 23, 103);
+height: 400px;
+color:white;
+margin-top: -30px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+overflow: auto;
+
+}
+
+.ab-title{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.ab-wap{
+    margin-top: 130px;
+    
+}
+
+.svg-2{
+    width:100%;
+    height: 670px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.about-wap-2{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.row-4{
+    background-color: whitesmoke;
+}
+
+
+.row-5{
+    
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.card-one{
+
+    margin-top: 50px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-left:20px;
+}
+
+.svg-3{
+    width:100%;
+    height: 200px;
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.variety{
+    font-size: 20px;
+}
+
+.small-footer-text{
+    margin-top:50px;
+}
+
+
+
+.team-text{
+    color:rgb(184, 23, 103);
+    font-size: 30px;
+}
+
+.team-text-2{
+    font-size: 20px;
+    color:#333;
+}
+
+.team-avatar{
+ width:150px;
+ height: 150px;
+ border-radius: 100%;
+ border:3px solid white;
+
+ box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+ -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+ -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+ -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+ -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+ margin-left:20px;
+
+}
+
+
+
+.row-6{
+    justify-content: center;
+    display: flex;
+    
+}
+
+@media only screen and (max-width:800px){
+
+.row-6{
+    justify-content: center;
+    flex-direction: column;
+    
+}
+}
+
+.role{
+    color:#333;
+}
+
+.page-footer{
+    height: 200px;
+    background-color:rgb(184, 23, 103);
+    margin-top: 100px;
+    color:white;
+    box-shadow: 2px 2px 2px;
+}

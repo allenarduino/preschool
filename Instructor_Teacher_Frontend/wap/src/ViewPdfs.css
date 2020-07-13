@@ -1,0 +1,57 @@
+.pdf-background{
+    width: 100vw;  
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    background:white;
+    overflow: auto;
+    padding-top: 100px;
+    top:0px;
+    padding-left:20px;
+    padding-right: 20px; 
+    padding-bottom: 70px;
+     
+  }
+
+  .pdf-img{
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width:100%;
+  
+  }
+
+
+.pdf-header{
+  
+   overflow: hidden;
+
+  }
+  .pdf-footer{
+    height:80px;
+    margin:0;
+    width:100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
+    
+    
+    
+  }
+
+  .pdf-title{
+      font-size: 18px;
+  }
+
+  .pdf-butn{
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    color:white;
+    border-radius:10px;
+    width:60px;
+    font-size: 10px;
+  }
+  
+  
+

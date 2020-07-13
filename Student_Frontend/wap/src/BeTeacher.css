@@ -1,0 +1,33 @@
+.be-teacher-container{
+    background: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.teach-link{
+    color:  rgb(184, 23, 103);
+    text-decoration: none;
+}
+
+.teach-link:hover{
+    color:  rgb(184, 23, 103);
+    text-decoration: none;
+}
+
+.be-teacher-background{
+ display: flex;
+justify-content: center;
+background-image: url("./Images/wapbackground16.jpg");
+height: 100vh;
+overflow:auto;
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 20px;
+padding-right: 20px;
+}

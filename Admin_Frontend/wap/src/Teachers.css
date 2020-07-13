@@ -1,0 +1,37 @@
+.teacher-card{
+    background: #fff;
+    
+    border-radius: 10px;
+    margin-top:100px;
+    margin-left: 9px;
+    padding:20px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-background{
+    margin: 0;
+    justify-content: center;
+    display: flex;
+
+}
+
+@media only screen and (max-width:768px){
+
+.teacher-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+.delete-button{
+    background-color: rgb(184, 23, 103);
+    color:white;
+    border:2px solid rgb(184, 23, 103);
+    border-radius: 10px;
+    width:100px;
+}

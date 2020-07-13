@@ -1,0 +1,237 @@
+.logo{
+    height: 40px;
+    width:40px;
+    border-radius: 40px;
+    margin-top: 5px;
+    
+}
+
+.mynav{
+    background-color:  rgb(184, 23, 103);
+    overflow: auto;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 2px;
+    width:100%;
+    flex-direction: row;
+    z-index: 2;
+    position: fixed;
+    margin:0px;
+    top:0;
+    
+}
+
+
+
+@media only screen and (max-width:800px){
+
+    .mynav{
+        display: none;
+    }
+
+    .logo{
+        height: 40px;
+        width:40px;
+        border-radius: 40px;
+        margin-top: 5px;
+        
+    }
+}
+
+
+
+
+
+
+
+.nav-closer{
+    list-style-type: none;
+    margin-top:10px;
+    
+
+}
+
+.nav-items{
+    color:white;
+    display: inline;
+    padding-left: 12px;
+    
+  
+}
+
+.nav-links{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-links:hover{
+    text-decoration: none;
+    color:orangered;
+
+}
+
+.nav-teacher{
+    background-color: rgb(184, 23, 103);
+    color:white;
+    padding:25px;
+    margin-left: 10px;
+    padding-left: 12px;
+    
+}
+
+/*********Phonenav***************/
+.phonenav{
+    background-color:  rgb(184, 23, 103);
+    padding-left:20px;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 2px;
+    width:100%;
+    flex-direction: row;
+    z-index: 2;
+    position: fixed;
+    margin:0px;
+    top:0px;
+    
+}
+
+
+.sidedrawer{
+    height: 100vh;
+    background-color: white;
+    top:0;
+    overflow:auto;
+    right:0;
+    width:300px;
+    position: fixed;
+    z-index: 5;
+    background-color: rgb(184, 23, 103);
+    transform: translateX(3);
+    transition: transform 0.2s ease-out;
+}
+
+.phonelogo{
+    
+        height: 40px;
+        width:40px;
+        border-radius: 40px;
+    
+}
+
+
+@media only screen and (min-width:800px){
+   
+.sidedrawer{
+   display: none;
+  
+} 
+}
+
+
+.drawer-items{
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.drawer-items li{
+    margin-top: 20px;
+    color:white;
+}
+
+
+.toggle-butn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width:30px;
+    background: transparent;
+    border:none;
+    cursor:pointer;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.butn-line{
+    width:30px;
+    height: 2px;
+    background: white;
+}
+
+
+
+
+.closebtn{
+    background-color: rgb(184, 23, 103);
+    color:white;
+    border:2px solid rgb(184, 23, 103);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* Myprofile */
+
+/*.avatar{
+    margin-top: -60px;
+    border:2px solid #fff;
+    width:100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+     
+    
+    
+
+}*/
+
+
+.coverphoto{
+    background-size: cover;
+    height:56vh;
+    width:100%;
+    border-bottom-left-radius: 100px;
+   /* border-bottom-right-radius: 150px;*/
+
+}
+
+/*****Profile info displayed on the drawer******/
+.drawer-profile-container{
+    background-color: white;
+    position:absolute;
+}
+
+.avatar2{
+    width:80px;
+    height: 80px;
+    border-radius: 80px;
+    border:3px solid white;
+}
+
+
+.name2{
+   color:white;
+   font-size: 20px;
+   margin-top: 10px;
+   
+}
+
+
+.nav-logoutbutn{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:rgb(184, 23, 103)
+    
+}
+

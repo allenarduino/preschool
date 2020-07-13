@@ -1,0 +1,154 @@
+.course-background{
+  background-color: whitesmoke;
+  height: 100vh;
+  margin:0;
+  flex: 1;
+  overflow: auto;
+  padding-top: 100px;
+  
+}
+
+
+.course-header{
+  
+  overflow: hidden;
+  background-color: white;
+  
+
+}
+
+.course-img{
+  
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  margin-right: 30px;
+  
+  
+}
+
+.course-footer{
+  height:100px;
+  background-color: white;
+  margin:0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 100px;
+  overflow: auto;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  
+}
+
+.course-name{
+  font-size: 20px;
+  margin-top: 20px;
+  color:#333;
+}
+
+
+
+  .enroll{
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    color:white;
+    border-radius:10px;
+    width:100px;
+  }
+  
+
+  .three-dot{
+    position: relative;
+    margin-right: 10px;
+    margin-top: -250px;
+    
+  }
+
+
+
+
+
+
+.search-input{
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width:400px;
+  padding-left:10px;
+  border:3px rgb(133, 8, 71);
+  color:white;
+  background-color: rgb(148, 7, 77);
+  padding-bottom: 7px;
+  padding-top: 7px;
+  
+  }
+  
+  @media only screen and (max-width:900px){
+  
+  .search-input{
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:200px;
+    padding-left:10px;
+    border:3px rgb(133, 8, 71);
+    color:white;
+    background-color: rgb(148, 7, 77);
+    padding-bottom: 7px;
+    padding-top: 7px;
+    
+    }
+  }
+  
+  .search-input::placeholder{
+  color: white;
+  }
+  
+  
+  .search-nav{
+  background-color:white;
+  overflow: auto;
+  box-shadow: 0px 0px 2px;
+  width:100%;
+  flex-direction: row;
+  z-index: 2;
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  margin:0px;
+  margin-top:60px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-top: -90px;
+  
+  
+  }
+  
+  
+  .acess-butn{
+    color:white;
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    border-radius: 10px;
+    width:100px;
+  }
+  
+  .enroll-butn{
+    color:white;
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    border-radius: 10px;
+    margin-left: 20px;
+    width:100px;
+  }
+  
+  .search-button{
+    background-color: rgb(148, 7, 77);
+    border:2px solid rgb(148, 7, 77);
+    color:white;
+  }

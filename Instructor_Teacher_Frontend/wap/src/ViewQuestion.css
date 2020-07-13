@@ -1,0 +1,48 @@
+.option-button{
+    background-color: white;
+    width:20px;
+   
+}
+
+
+.option-container{
+    margin-top: 20;
+    margin-left: 40px;
+    font-size:20px; 
+}
+
+
+@media only screen and (max-width:400px){
+   
+.option-container{
+    margin-top: 20;
+    margin-left: 30px;
+    font-size:15px; 
+}
+}
+
+.option-container li{
+    margin-top: 20;
+}
+.question-text{
+    font-size: 15px;
+}
+
+.question-delete-button{
+    color:white;
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    border-radius:10px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:400px){
+
+.question-delete-button{
+    color:white;
+    background-color: rgb(184, 23, 103);
+    border:2px solid rgb(184, 23, 103);
+    border-radius:10px;
+    margin-left: 9px;
+}
+}

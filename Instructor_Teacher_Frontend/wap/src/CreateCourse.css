@@ -1,0 +1,116 @@
+
+.form-container{
+    
+    background: #fff;
+    padding: 20px 45px 35px 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-top:100px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    
+}
+
+.bg{
+    width: 100vw;  
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    background: #f2f2f2;
+    overflow: auto;
+    padding-top: 100px;
+    top:0px; 
+    
+}
+
+
+.forminput{
+    width:200px;
+    border: 1px solid whitesmoke;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:5px;
+    margin-top:15px;
+}
+
+.formbutton{
+       width:200px;
+       border-radius:15px;
+       padding-bottom: 5px;
+       margin-top: 20px;
+       padding-top:5px;
+       background-color: rgb(184, 23, 103);
+       color: #fff;
+       border:2px solid rgb(184, 23, 103);
+}
+
+
+
+.inputfile1::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+.inputfile1::before{
+   content: "Choose photo";
+   display: inline-block;
+   border-radius: 10px;
+   border:2px solid rgb(184, 23, 103);
+   outline: none;
+   -webkit-user-select: none;
+   cursor: pointer;
+   color:white;
+   background-color: rgb(184, 23, 103);
+}
+
+.courseinput{
+   width:20%;
+   border: 1px solid whitesmoke;
+   background-color:whitesmoke;
+   border-radius: 15px;
+   padding-bottom:5px;
+   padding-top:5px;
+   padding-left:5px;
+   margin-top:1px;
+}
+
+/*.coursecontent{
+    width:20%;
+    border: 1px solid whitesmoke;
+    background-color:whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:5px;
+    margin-top:1px;
+}*/
+
+.namebutton{
+   margin-left: -50px;
+   padding-right: 2px;
+   padding-left:2px;
+   border-radius: 15px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   color:white;
+   position: relative;
+   margin-top: 10px;
+   border:2px solid rgb(184, 23, 103);
+   background-color: rgb(184, 23, 103);
+}
+
+.selectinput{
+width: 150px;
+border-radius: 5px;
+padding: 5px;
+}
+
+
+

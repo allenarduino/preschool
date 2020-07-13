@@ -1,0 +1,43 @@
+.home-background{
+    background-image: url('./Images/wapbackground17.jpg');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    overflow: auto;
+}
+
+.background-text1{
+    color:white;
+    margin-top: 200px;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+.background-text2{
+    color:white;
+    margin-top:20px;
+    font-size: 30px;
+}
+.button-container{
+    margin-top: 100px;
+}
+
+.l-button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    color:white;
+    width: 100px;
+    
+}
+
+
+.r-button{
+    margin-left: 20px;
+    background-color:rgb(184, 23, 103);
+    border: 3px solid rgb(184, 23, 103);
+    color:white;
+    width: 100px;
+    
+}
