@@ -15,7 +15,7 @@ class AdminProfile extends React.Component{
 
 
     componentDidMount(){
-        fetch("https://merl.herokuapp.com/admin_profile",
+        fetch("http://127.0.0.1:5000/admin_profile",
         {
             method:"GET",
             headers:{
@@ -51,7 +51,7 @@ class AdminProfile extends React.Component{
             <div style={{backgroundImage:`http://127.0.0.1:5000${t.coverphoto}`}} className="col-lg-7 col-xs-10 col-xl-7  col-sm-10 col-md-10 profile-container col text-center "> 
             <div className="col text-center">
                                 
-                <img src={`https://merl.herokuapp.com${t.admin_img}`} className="avatar"/>
+                <img src={`http://127.0.0.1:5000${t.admin_img}`} className="avatar"/>
               <h1 className="name">{t.name}</h1> 
               
               

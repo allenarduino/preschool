@@ -53,7 +53,7 @@ class AdminLogin extends React.Component{
             })
 
 
-        fetch("https://merl.herokuapp.com/admin_login",{
+        fetch("http://127.0.0.1:5000/admin_login",{
             method:"POST",
             body:JSON.stringify(this.state),
             headers:{

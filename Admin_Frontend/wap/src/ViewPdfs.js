@@ -18,7 +18,7 @@ class ViewPdfs extends React.Component{
    
 
    componentDidMount(){
-    fetch(`https://merl.herokuapp.com/view_pdfs/${this.props.match.params.id}`,
+    fetch(`http://127.0.0.1:5000/view_pdfs/${this.props.match.params.id}`,
     {
         method:"GET",
         "Content-Type":"application/json"

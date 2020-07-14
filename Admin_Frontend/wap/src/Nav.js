@@ -26,7 +26,7 @@ export default class Nav extends React.Component {
 /*This will fetch the teacher's info and and change the state
 to display it on the navigation drawer*/ 
   fetchinfo=()=>{
-      fetch("https://merl.herokuapp.com/admin_profile",
+      fetch("http://127.0.0.1:5000/admin_profile",
       {
         method:"GET",
         "Content-Type":"application/json",
@@ -124,7 +124,7 @@ to display it on the navigation drawer*/
    {this.state.myprofile.map(t=><div>
     <button className="closebtn" onClick={()=>this.closedrawer()}>&times;</button>
       <div className=" col text-center">
-       <img src={`https://merl.herokuapp.com${t.admin_img}`} className="avatar2"/>
+       <img src={`http://127.0.0.1:5000${t.admin_img}`} className="avatar2"/>
         <h1 className="name2">{t.name}</h1> 
          </div>
          </div>

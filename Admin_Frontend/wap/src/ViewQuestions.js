@@ -17,7 +17,7 @@ class ViewQuestions extends React.Component{
    
 
    componentDidMount(){
-    fetch(`https://merl.herokuapp.com/view_pdfs/${this.props.match.params.id}`,
+    fetch(`http://127.0.0.1:5000/view_pdfs/${this.props.match.params.id}`,
     {
         method:"GET",
         "Content-Type":"application/json"
@@ -45,7 +45,7 @@ class ViewQuestions extends React.Component{
                 this.state.pdfs.map(t=>
                     
                     <div className=" pdf-header col-md-3 col-xl-2 col-sm-2 col-xs-2 col-lg-3">
-                   <img className="pdf-img" src={`https://merl.herokuapp.com${t.pdf_picture}`}/>
+                   <img className="pdf-img" src={`http://127.0.0.1:5000${t.pdf_picture}`}/>
                    <div  className=" pdf-footer col text-center"> <h3 className="pdf-title">{t.title}</h3>
                    <Link to={`singlecourse/${t.course_id}`}><button className="pdf-butn">Download</button></Link>
                     </div>

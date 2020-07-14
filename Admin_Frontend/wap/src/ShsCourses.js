@@ -50,7 +50,7 @@ search=()=>{
      
     const data=new FormData();
     data.append("name",this.state.name)
-    fetch("https://merl.herokuapp.com/search_shs_courses",
+    fetch("http://127.0.0.1:5000/search_shs_courses",
 
     {
         method:"POST",
@@ -102,7 +102,7 @@ this.setState({
 
 
     componentDidMount(){
-        fetch("https://merl.herokuapp.com/shs_courses",{
+        fetch("http://127.0.0.1:5000/shs_courses",{
            methods:"GET",
             "Content-Type":"application/json"
         })

@@ -15,7 +15,7 @@ class SingleVideo extends React.Component{
 
 
    componentDidMount(){
-       fetch(`https://merl.herokuapp.com/view_video/${this.props.match.params.id}`,
+       fetch(`http://127.0.0.1:5000/view_video/${this.props.match.params.id}`,
        {
            method:"GET"
        }
@@ -35,7 +35,7 @@ class SingleVideo extends React.Component{
 
   delete_video=(id)=>{
     if (window.confirm("Are you sure you want to delete this video?")){
-    fetch(`https://merl.herokuapp.com/delete_video/${id}`,
+    fetch(`http://127.0.0.1:5000/delete_video/${id}`,
     {
         method:"DELETE"
     }
@@ -77,7 +77,7 @@ class SingleVideo extends React.Component{
 {
     this.state.video.map(t=><div className="col text-center">
       <div style={{display:"flex",justifyContent:"center",marginTop:100}} className="col text-center">
-      <video style={{borderRadius:10}} src={`https://merl.herokuapp.com${t.video_url}`} controls  style={{height:400}}/>
+      <video style={{borderRadius:10}} src={`http://127.0.0.1:5000${t.video_url}`} controls  style={{height:400}}/>
       
          </div>                   
    <button onClick={()=>this.delete_video(t.id)} style={{marginLeft:10,marginTop:10}} className="enroll">Delete</button>

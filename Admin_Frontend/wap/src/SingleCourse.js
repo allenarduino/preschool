@@ -16,7 +16,7 @@ class SingleCourse extends React.Component{
     }
 
   componentDidMount(){
-    fetch(`https://merl.herokuapp.com/courses/${this.props.match.params.id}`,
+    fetch(`http://127.0.0.1:5000/courses/${this.props.match.params.id}`,
   {
       methods:"GET",
       "Content-Type":"application/json"

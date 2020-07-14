@@ -12,7 +12,7 @@ class SinglePdf extends React.Component{
 
 
    componentDidMount(){
-       fetch(`https://merl.herokuapp.com/view_pdf/${this.props.match.params.id}`,
+       fetch(`http://127.0.0.1:5000/view_pdf/${this.props.match.params.id}`,
        {
            method:"GET"
        }
@@ -37,7 +37,7 @@ class SinglePdf extends React.Component{
            <div  className="pdf-container  col text-center">
                {
                    this.state.pdf.map(t=>
-                  <iframe src={`https://merl.herokuapp.com${t.pdf}`} className="pdf-size " />
+                  <iframe src={`http://127.0.0.1:5000${t.pdf}`} className="pdf-size " />
                     )
                }
            </div>

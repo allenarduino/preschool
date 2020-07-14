@@ -16,7 +16,7 @@ class ViewVideos extends React.Component{
 
 
    componentDidMount(){
-       fetch(`https://merl.herokuapp.com/view_videos/${this.props.match.params.id}`,
+       fetch(`http://127.0.0.1:5000/view_videos/${this.props.match.params.id}`,
        {
            method:"GET",
            "Content-Type":"application/json",
@@ -49,7 +49,7 @@ class ViewVideos extends React.Component{
                              
                           <div className="video-header"> 
                         
-                          <img className="video-img" src={`https://merl.herokuapp.com${t.video_coverphoto}`}/>
+                          <img className="video-img" src={`http://127.0.0.1:5000${t.video_coverphoto}`}/>
                          <div className="col text-center"> <img src={video_icon} style={{marginTop:-200,height:50}}/></div>
 
                           </div>

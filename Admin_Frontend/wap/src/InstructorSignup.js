@@ -61,7 +61,7 @@ class InstructorSignup extends React.Component{
             })
            
      
-        fetch(" https://merl.herokuapp.com/admin_signup",{
+        fetch("http://127.0.0.1:5000/admin_signup",{
             method:"POST",
             body:JSON.stringify(this.state),
             headers:{
