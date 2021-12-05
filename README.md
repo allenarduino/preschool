@@ -1,6 +1,6 @@
 # preschool
 
-* This is an e-learning application for BECE and WASSCE students.
+* This is an e-learning application to prepare students for their BECE and WAEC examinations.
 * The back end was built by Python3(Flask) and Mysql database.
 * The front end was built by React ES6.
 * This application is a REST API so you can build a mobile app or desktop app in future to
