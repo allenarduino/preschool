@@ -209,34 +209,11 @@ render(){
 
 
 <div class="team col text-center">
-    <h2 className="team-text">The Amazing Team</h2>
-    <h1 className="team-text-2">Meet The Amazing Team behind this innovation</h1>
+    <h2 className="team-text">The Developer</h2>
+    <h1 className="team-text-2">Meet The Amazing Developer behind this innovation</h1>
 </div>
 
-
-
-
-
 <div className="row  row-6 col text-center ">
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Enoch} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Enoch Yeboah</b>
-              <p className="role">
-                  Project Manager and Front End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
 
 
  {/***********card_one************* */}
@@ -248,230 +225,24 @@ render(){
               <div className="col text-center">
               <b className="variety">Allen Jones</b>
               <p className="role">
-                  Full Stack Developer
+                  CEO and CTO
                   </p>
               </div>
       
 
     </div>
     {/**************End of card one**************** */}
-
-
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Twumasi} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Emmanuel Twumasi</b>
-              <p className="role">
-                  Back End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Acquah} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Acquah Ebenezer</b>
-              <p className="role">
-                  Back End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Ivan} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Ivan Osei Tutu</b>
-              <p className="role">
-                  Front End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Hotor} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Hotor Jasper Aseye</b>
-              <p className="role">
-                  Front End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Elija} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Dassah Elija</b>
-              <p className="role">
-                  Front End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Tonardo} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Amponsah Kwesi Anthony</b>
-              <p className="role">
-                  Back End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Mohammed} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Yakubu Muhammed-jamiu</b>
-              <p className="role">
-                  Back End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
- {/***********card_one************* */}
- <div className="col-xl-3  card-one">
-              
-              <img src={Bremang} className="team-avatar"/>
-              
-             
-              <div className="col text-center">
-              <b className="variety">Bremang Josheph</b>
-              <p className="role">
-                  Front End Developer
-                  </p>
-              </div>
-      
-
-    </div>
-    {/**************End of card one**************** */}
-
-
-
-
-
-
-
-
-
-
 
 
 </div>
-
 
 
 <div className="row page-footer  ">
-<b style={{marginTop:100}} className="col text-center">Copyright@wap</b>
+<b style={{marginTop:100}} className="col text-center">Wap@2021</b>
 </div>
 
-
-
-
-
 </div>
-
-
-
-   
-        
+      
     )
 }
 }

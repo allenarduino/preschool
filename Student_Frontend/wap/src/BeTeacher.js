@@ -1,6 +1,5 @@
 import React from 'react';
 import './BeTeacher.css';
-
 class BeTeacher extends React.Component{
 
     render(){
