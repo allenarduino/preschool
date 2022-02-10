@@ -11,8 +11,9 @@
 
 @media only screen and (max-width:700px){
     .home-background{
-        background-image: url('./Images/wapbackground16.jpg');
         height:650px;
+        background-image:url('./Images/wapbackground16.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
         background-repeat: no-repeat;
         background-size: cover;
         width:100vw;
@@ -28,22 +29,25 @@
 .background-text1{
     color:white;
     margin-top: 200px;
-    font-size: 30px;
+    font-weight:bold;
 }
 
 @media only screen and (max-width:700px){
 
 .background-text1{
     color:white;
-    margin-top: 150px;
+    margin-top: 170px;
     font-size: 30px;
+    font-weight: bold;
+   
 }
 }
 
 .background-text2{
     color:white;
-    margin-top:20px;
-    font-size: 30px;
+    margin-top:30px;
+     font-size: 30px;
+   
 }
 
 @media only screen and (max-width:768px){
@@ -62,15 +66,7 @@
 
 .button-container{
     margin-top: 100px;
-}
-
-.l-button{
-    margin-left: 20px;
-    background-color: transparent;
-    border: 3px solid white;
-    color:white;
-    width: 100px;
-    
+    row-gap: 20px;
 }
 
 
@@ -79,9 +75,24 @@
     background-color:rgb(184, 23, 103);
     border: 3px solid rgb(184, 23, 103);
     color:white;
-    width: 100px;
+    width: 120px;
+    height:40px;
+    border-radius: 10px;
     
 }
+
+.l-button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    color:white;
+    width: 120px;
+    height:40px;
+    border-radius: 10px;
+    
+}
+
+
 
 
 
@@ -359,7 +370,6 @@ overflow: auto;
     
 }
 .card-one{
-
     margin-top: 50px;
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -368,6 +378,23 @@ overflow: auto;
     -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
     margin-left:20px;
 }
+
+
+.card-two{
+    height: 300px;
+    padding-top: 20px;
+    margin-top: 50px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-left:20px;
+}
+
+
+
+
 
 .svg-3{
     width:100%;
@@ -399,8 +426,8 @@ overflow: auto;
 }
 
 .team-avatar{
- width:150px;
- height: 150px;
+ width:200px;
+ height: 200px;
  border-radius: 100%;
  border:3px solid white;
 

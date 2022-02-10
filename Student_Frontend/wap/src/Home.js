@@ -1,6 +1,7 @@
 import React from 'react';
 import  jwt_decode from 'jwt-decode';
 import {Link} from 'react-router-dom';
+import { Fade } from "react-reveal";
 import './Home.css';
 import Typewriter from 'typewriter-effect';
 import imageone from './Images/freepik2.png';
@@ -13,16 +14,8 @@ import freepik_two from './Images/5584.jpg';
 import variety from './Images/finding-variety.png';
 import expert from './Images/finding-reliable.png';
 import effortless from './Images/finding-effortless.png';
-import Enoch from './Images/IMG-20200630-WA0011.jpg';
-import Allen from './Images/IMG_20190529_235302_416.jpg';
-import Acquah from './Images/IMG-20200630-WA0008.jpg';
-import Twumasi from './Images/IMG-20200630-WA0014.jpg';
-import Ivan from './Images/IMG-20200630-WA0010.jpg';
-import Hotor from './Images/IMG-20200630-WA0012.jpg';
-import Tonardo from './Images/IMG-20200630-WA0013.jpg';
-import Elija from './Images/IMG-20200630-WA0015.jpg';
-import Mohammed from './Images/IMG-20200630-WA0009.jpg';
-import Bremang from './Images/WhatsApp Image 2020-06-30 at 18.14.52.jpeg';
+import Allen from './Images/allen.jpg';
+
 
 
 
@@ -35,26 +28,30 @@ class Home extends React.Component{
 
 render(){
     return(
-        <div>
-            {/********Home page background image */}
-            
+       <>
+            {/********Home page background image */} 
+               <Fade bottom duration={900} distance="40px">     
         <div className="row">
             <div className=" home-background col-lg-12 col-xl-12 col-xs-12 col-sm-12 col-md-12 ">
                <div className="col text-center">
-               <h2 className="background-text1">We have faith in the future of our students</h2>
-
-
+               <h1 className="background-text1">We have faith in the future of our students</h1>
                    <h2 className="background-text2">
-                       <b>
-        <Typewriter  
+                      
+     {/*
+     <b>
+     <Typewriter  
   options={{
    strings:["It's never too late to study","You can make it","Please register now","Education is the key"],
     autoStart:true,
-     loop:true,
+    loop:true,
    pauseFor:600,
     
    }}/>
+
    </b>
+*/}
+
+
                    </h2>
                    <div className="button-container">
                    <Link to="/studentsignup"><button  className="r-button">Signup</button></Link>
@@ -65,19 +62,19 @@ render(){
                    </div>
 
         
-
+</Fade>
 {/**********End of home page background image************ */}
-
-<div className="row row-1">
-    
+ <Fade bottom duration={900} distance="40px"> 
+<div className="row row-1">  
   <div className="col text-center">
       <h1 className="big-text"><b>WELCOME TO WAP E-LEARNING</b></h1>
       <h3>Get help from well trained teachers</h3>
-
 </div>
-
 </div>
+ </Fade> 
 
+
+<Fade bottom duration={900} distance="40px"> 
 <div className="row row-2">
     <div className="col-xl-5">
     <h3 className="list-title"><b>One-to-one live mentorship</b></h3>
@@ -97,18 +94,16 @@ render(){
         </li>
        <Link to="/studentsignup"><button className="register">Register</button></Link>
     </ol>
-    
    </div>
-
    <div className="col-xl-5">
        <img  src={freepik} className="svg-1"/>
    </div>
-
 </div>
+</Fade> 
 
 
 
-
+<Fade bottom duration={900} distance="40px"> 
 <div className="row row-3">
     <div className="col-xl-5 about-wap-container">
       <img src={student_pic} className="student-pic"/>
@@ -130,8 +125,7 @@ render(){
     <img  src={freepik_two} className="svg-2"/>
     </div>
 </div>
-
-
+</Fade> 
 
 <div className="col  text-center what">
       <h1 className="big-text"><b>WHAT YOU'LL FIND ON WAP</b></h1>
@@ -142,11 +136,9 @@ render(){
 <div className="row row-5 col text-center ">
    
           {/***********card_one************* */}
+          <Fade bottom duration={900} distance="40px"> 
           <div className="col-xl-3  card-one">
-              
               <img src={variety} className="svg-3"/>
-              
-             
               <div className="col text-center">
               <b className="variety">A variety of courses</b>
               <p className="small-footer-text">From Mathematics and Economics to Science and English language, 
@@ -155,11 +147,13 @@ render(){
       
 
     </div>
+    </Fade>
     {/**************End of card one**************** */}
 
 
 
     {/***********card_one************* */}
+    <Fade bottom duration={900} distance="40px"> 
     <div className="col-xl-3  card-one">
               
               <img src={expert} className="svg-3"/>
@@ -171,9 +165,8 @@ render(){
               Our teachers go through a strict application and vetting process, leaving only the best.
               </p>
               </div>
-      
-
     </div>
+    </Fade> 
     {/**************End of card one**************** */}
 
 
@@ -182,6 +175,7 @@ render(){
 
 
     {/***********card_one************* */}
+    <Fade bottom duration={900} distance="40px"> 
     <div className="col-xl-3  card-one">
               
               <img src={effortless} className="svg-3"/>
@@ -195,18 +189,13 @@ render(){
                to connect with a teacher right away.
               </p>
               </div>
-      
-
     </div>
+    </Fade> 
     {/**************End of card one**************** */}
       </div>
 
 
-
-
-
 {/*******************Row 6**************************** */}
-
 
 <div class="team col text-center">
     <h2 className="team-text">The Developer</h2>
@@ -217,31 +206,21 @@ render(){
 
 
  {/***********card_one************* */}
- <div className="col-xl-3  card-one">
+ <div className="col-xl-3  card-two">
               
               <img src={Allen} className="team-avatar"/>
-              
-             
               <div className="col text-center">
               <b className="variety">Allen Jones</b>
               <p className="role">
                   CEO and CTO
                   </p>
               </div>
-      
-
     </div>
-    {/**************End of card one**************** */}
-
-
+    {/****************End of card one***************** */}
+   
 </div>
+</>
 
-
-<div className="row page-footer  ">
-<b style={{marginTop:100}} className="col text-center">Wap@2021</b>
-</div>
-
-</div>
       
     )
 }
